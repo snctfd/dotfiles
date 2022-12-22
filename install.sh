@@ -5,7 +5,7 @@ sudo apt update
 sudo apt dist-upgrade
 
 ZSH=~/.oh-my-zsh
-ZSH_CUSTOM="$OMZ_DIR/custom"
+ZSH_CUSTOM="$ZSH/custom"
 
 function apt_install() {
     if [[ ! -e "/usr/bin/$1" ]] then
