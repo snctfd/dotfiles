@@ -26,7 +26,7 @@ function zsh_plugin_install() {
 
 apt_install zsh
 
-cp ~/.zshrc .zshrc.bak
+cp ~/.zshrc ~/.zshrc.bak
 cp -f .zshrc ~
 
 
