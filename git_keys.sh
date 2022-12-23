@@ -6,3 +6,6 @@ if [[ ! -e ~/.ssh/id_ed25519 ]] then
     eval "$(ssh-agent -s)"
     ssh-add ~/.ssh/id_ed25519
 fi
+
+git config --global user.email "evelyn@snctfd.io"
+git config --global user.name "Evelyn Beck"
