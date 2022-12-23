@@ -14,5 +14,5 @@ function apt_install() {
 
 apt_install zsh
 
+./setup-git.sh
 ./setup-zsh.sh
-./git_keys.sh
