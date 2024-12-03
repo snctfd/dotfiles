@@ -20,6 +20,9 @@ cp -n ~/.zshrc ~/.zshrc.bak
 cp -f .zshrc ~
 
 # install oh-my-zsh and plugins
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --keep-zshrc 
+echo "Installing oh-my-zsh and plugins"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --keep-zshrc --unattended
 zsh_plugin_install zsh-syntax-highlighting
 zsh_plugin_install zsh-autosuggestions
+
+chsh -s zsh
