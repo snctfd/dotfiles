@@ -77,6 +77,8 @@ plugins=(
   zsh-autosuggestions
   jump
   zsh-syntax-highlighting
+  sudo
+  kubectl-autocomplete
 )
 
 source $ZSH/oh-my-zsh.sh
