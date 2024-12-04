@@ -4,7 +4,7 @@
 sudo apt update
 sudo apt dist-upgrade
 
-INSTALL_PACKAGES="zsh git"
+INSTALL_PACKAGES="zsh git fzf"
 sudo apt install -y $INSTALL_PACKAGES
 
 ./setup-git.sh
