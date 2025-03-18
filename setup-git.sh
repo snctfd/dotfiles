@@ -2,8 +2,8 @@
 
 echo "Setting up SSH key and Git config..."
 
-read -p "Enter e-mail to use for key generation and Git config" EMAIL
-read -p "Enter full name to use for Git config" FULLNAME
+read -p "Enter e-mail to use for key generation and Git config: " EMAIL
+read -p "Enter full name to use for Git config: " FULLNAME
 
 if [[ ! -e ~/.ssh/id_ed25519 ]] then
     echo "Generating SSH key..."
